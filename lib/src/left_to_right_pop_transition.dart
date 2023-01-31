@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class LeftToRightPopTranzition<T> extends PageTranzition<T> {
+class LeftToRightPopTranzition extends PageTranzition {
   LeftToRightPopTranzition({
     required super.child,
     required this.currentChild,
@@ -24,7 +24,7 @@ class LeftToRightPopTranzition<T> extends PageTranzition<T> {
         SlideTransition(
           position: Tween<Offset>(
             begin: Offset.zero,
-            end: const Offset(-1.0, 0.0),
+            end: const Offset(1.0, 0.0),
           ).animate(
             CurvedAnimation(
               parent: animation,

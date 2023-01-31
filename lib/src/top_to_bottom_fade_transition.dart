@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class TopToBottomFadeTranzition<T> extends PageTranzition<T> {
+class TopToBottomFadeTranzition extends PageTranzition {
   TopToBottomFadeTranzition({
     required super.child,
   });
@@ -24,6 +24,7 @@ class TopToBottomFadeTranzition<T> extends PageTranzition<T> {
         opacity: animation,
         child: SlideTransition(
           position: _position.animate(animation),
+          child: child,
         ),
       ),
     );

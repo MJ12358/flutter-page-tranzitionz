@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class FadeTranzition<T> extends PageTranzition<T> {
+class FadeTranzition extends PageTranzition {
   FadeTranzition({
     required super.child,
   });

@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class TopToBottomJoinTranzition<T> extends PageTranzition<T> {
+class TopToBottomJoinTranzition extends PageTranzition {
   TopToBottomJoinTranzition({
     required super.child,
     required this.currentChild,

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-abstract class PageTranzition<T> extends PageRouteBuilder<T> {
+abstract class PageTranzition extends PageRouteBuilder {
   PageTranzition({
     required this.child,
   }) : super(pageBuilder: (

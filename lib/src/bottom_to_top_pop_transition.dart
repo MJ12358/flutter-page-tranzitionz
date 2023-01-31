@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class BottomToTopPopTranzition<T> extends PageTranzition<T> {
+class BottomToTopPopTranzition extends PageTranzition {
   BottomToTopPopTranzition({
     required super.child,
     required this.currentChild,

@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class TopToBottomTranzition<T> extends PageTranzition<T> {
+class TopToBottomTranzition extends PageTranzition {
   TopToBottomTranzition({
     required super.child,
   });

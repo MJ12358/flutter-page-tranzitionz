@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class LeftToRightFadeTranzition<T> extends PageTranzition<T> {
+class LeftToRightFadeTranzition extends PageTranzition {
   LeftToRightFadeTranzition({
     required super.child,
   });
@@ -24,6 +24,7 @@ class LeftToRightFadeTranzition<T> extends PageTranzition<T> {
         opacity: animation,
         child: SlideTransition(
           position: _position.animate(animation),
+          child: child,
         ),
       ),
     );

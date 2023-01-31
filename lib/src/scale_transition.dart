@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class ScaleTranzition<T> extends PageTranzition<T> {
+class ScaleTranzition extends PageTranzition {
   ScaleTranzition({
     required super.child,
     this.alignment = Alignment.center,

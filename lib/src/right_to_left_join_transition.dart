@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class RightToLeftJoinTranzition<T> extends PageTranzition<T> {
+class RightToLeftJoinTranzition extends PageTranzition {
   RightToLeftJoinTranzition({
     required super.child,
     required this.currentChild,

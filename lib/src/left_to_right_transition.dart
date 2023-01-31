@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class LeftToRightTranzition<T> extends PageTranzition<T> {
+class LeftToRightTranzition extends PageTranzition {
   LeftToRightTranzition({
     required super.child,
   });
