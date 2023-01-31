@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/src/page_transition.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class LeftToRightTransition<T> extends PageTransition<T> {
-  LeftToRightTransition({
+class LeftToRightTranzition<T> extends PageTranzition<T> {
+  LeftToRightTranzition({
     required super.child,
   });
 
@@ -15,7 +15,7 @@ class LeftToRightTransition<T> extends PageTransition<T> {
   ) {
     return SlideTransition(
       position: Tween<Offset>(
-        begin: const Offset(-1, 0),
+        begin: const Offset(-1.0, 0.0),
         end: Offset.zero,
       ).animate(animation),
       child: child,

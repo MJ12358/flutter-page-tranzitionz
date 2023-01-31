@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/src/page_transition.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class RightToLeftJoinedTransition<T> extends PageTransition<T> {
-  RightToLeftJoinedTransition({
+class RightToLeftPopTranzition<T> extends PageTranzition<T> {
+  RightToLeftPopTranzition({
     required super.child,
     required this.currentChild,
     this.curve = Curves.linear,
@@ -20,10 +20,11 @@ class RightToLeftJoinedTransition<T> extends PageTransition<T> {
   ) {
     return Stack(
       children: <Widget>[
+        child,
         SlideTransition(
           position: Tween<Offset>(
             begin: Offset.zero,
-            end: const Offset(-1.0, 0.0),
+            end: const Offset(1.0, 0.0),
           ).animate(
             CurvedAnimation(
               parent: animation,
@@ -31,18 +32,6 @@ class RightToLeftJoinedTransition<T> extends PageTransition<T> {
             ),
           ),
           child: currentChild,
-        ),
-        SlideTransition(
-          position: Tween<Offset>(
-            begin: const Offset(1.0, 0.0),
-            end: Offset.zero,
-          ).animate(
-            CurvedAnimation(
-              parent: animation,
-              curve: curve,
-            ),
-          ),
-          child: child,
         ),
       ],
     );

@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/src/page_transition.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class RotateTransition<T> extends PageTransition<T> {
-  RotateTransition({
+class RotateTranzition<T> extends PageTranzition<T> {
+  RotateTranzition({
     required super.child,
     this.alignment = Alignment.center,
   });

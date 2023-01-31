@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/src/page_transition.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class BottomToTopTransition<T> extends PageTransition<T> {
-  BottomToTopTransition({
+class BottomToTopTranzition<T> extends PageTranzition<T> {
+  BottomToTopTranzition({
     required super.child,
   });
 
@@ -15,7 +15,7 @@ class BottomToTopTransition<T> extends PageTransition<T> {
   ) {
     return SlideTransition(
       position: Tween<Offset>(
-        begin: const Offset(0, 1),
+        begin: const Offset(0.0, 1.0),
         end: Offset.zero,
       ).animate(animation),
       child: child,

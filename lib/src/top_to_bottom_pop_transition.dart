@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/flutter_page_transitionz.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class BottomToTopJoinedTransition<T> extends PageTransition<T> {
-  BottomToTopJoinedTransition({
+class TopToBottomPopTranzition<T> extends PageTranzition<T> {
+  TopToBottomPopTranzition({
     required super.child,
     required this.currentChild,
     this.curve = Curves.linear,
@@ -20,22 +20,11 @@ class BottomToTopJoinedTransition<T> extends PageTransition<T> {
   ) {
     return Stack(
       children: <Widget>[
-        SlideTransition(
-          position: Tween<Offset>(
-            begin: const Offset(0.0, 1.0),
-            end: Offset.zero,
-          ).animate(
-            CurvedAnimation(
-              parent: animation,
-              curve: curve,
-            ),
-          ),
-          child: child,
-        ),
+        child,
         SlideTransition(
           position: Tween<Offset>(
             begin: Offset.zero,
-            end: const Offset(0.0, -1.0),
+            end: const Offset(0.0, 1.0),
           ).animate(
             CurvedAnimation(
               parent: animation,

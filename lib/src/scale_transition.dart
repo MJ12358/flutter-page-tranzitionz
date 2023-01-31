@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_page_transitionz/flutter_page_transitionz.dart';
+import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-class ScaleTranzition<T> extends PageTransition<T> {
+class ScaleTranzition<T> extends PageTranzition<T> {
   ScaleTranzition({
     required super.child,
     this.alignment = Alignment.center,
@@ -23,8 +23,8 @@ class ScaleTranzition<T> extends PageTransition<T> {
       scale: CurvedAnimation(
         parent: animation,
         curve: Interval(
-          0.00,
-          0.50,
+          0.0,
+          0.5,
           curve: curve,
         ),
       ),
