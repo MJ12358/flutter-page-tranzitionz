@@ -7,7 +7,7 @@ A set of [Page Route Transitions](https://docs.flutter.dev/cookbook/animation/pa
 Add this to your `pubspec.yaml` under `dependencies`
 
 ```yaml
-flutter_page_tranzitionz: ^1.0.0-dev
+flutter_page_tranzitionz: ^1.0.1-dev
 ```
 
 ## Usage
