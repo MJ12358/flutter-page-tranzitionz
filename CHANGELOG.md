@@ -1,13 +1,17 @@
 # Flutter Page Tranzitionz
 
+## 2.0.0
+
+- Ensure only the `flutter_page_tranzitionz.dart` file can be imported.
+
 ## 1.0.0
 
-* Initial release.
+- Initial release.
 
 ## 1.0.1-dev
 
-* Add missing child.
+- Add missing child.
 
 ## 1.0.0-dev
 
-* Initial developer preview.
+- Initial developer preview.

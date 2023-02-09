@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+part of '../flutter_page_tranzitionz.dart';
 
 abstract class PageTranzition extends PageRouteBuilder {
   PageTranzition({
