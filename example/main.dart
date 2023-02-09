@@ -11,9 +11,11 @@ class Page1 extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.of(context).push(BottomToTopFadeTranzition(
-              child: const Page2(),
-            ));
+            Navigator.of(context).push(
+              BottomToTopFadeTranzition(
+                child: const Page2(),
+              ),
+            );
           },
           child: const Text('Go!'),
         ),

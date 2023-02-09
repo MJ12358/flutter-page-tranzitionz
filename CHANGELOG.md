@@ -1,5 +1,9 @@
 # Flutter Page Tranzitionz
 
+## 2.0.1
+
+- Fix some lints.
+
 ## 2.0.0
 
 - Ensure only the `flutter_page_tranzitionz.dart` file can be imported.
