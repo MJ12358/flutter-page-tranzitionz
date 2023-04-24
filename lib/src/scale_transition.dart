@@ -1,4 +1,4 @@
-part of '../flutter_page_tranzitionz.dart';
+part of flutter_page_tranzitionz;
 
 class ScaleTranzition extends PageTranzition {
   ScaleTranzition({
@@ -21,11 +21,7 @@ class ScaleTranzition extends PageTranzition {
       alignment: alignment,
       scale: CurvedAnimation(
         parent: animation,
-        curve: Interval(
-          0.0,
-          0.5,
-          curve: curve,
-        ),
+        curve: curve,
       ),
       child: child,
     );

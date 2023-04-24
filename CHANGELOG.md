@@ -1,5 +1,9 @@
 # Flutter Page Tranzitionz
 
+## 2.0.2
+
+- Add example app.
+
 ## 2.0.1
 
 - Fix some lints.

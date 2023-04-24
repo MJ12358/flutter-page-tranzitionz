@@ -1,4 +1,4 @@
-part of '../flutter_page_tranzitionz.dart';
+part of flutter_page_tranzitionz;
 
 abstract class PageTranzition extends PageRouteBuilder<dynamic> {
   PageTranzition({

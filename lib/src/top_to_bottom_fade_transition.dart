@@ -1,4 +1,4 @@
-part of '../flutter_page_tranzitionz.dart';
+part of flutter_page_tranzitionz;
 
 class TopToBottomFadeTranzition extends PageTranzition {
   TopToBottomFadeTranzition({

@@ -1,3 +1,5 @@
+library flutter_page_tranzitionz;
+
 import 'package:flutter/widgets.dart';
 
 part 'src/bottom_to_top_fade_transition.dart';
