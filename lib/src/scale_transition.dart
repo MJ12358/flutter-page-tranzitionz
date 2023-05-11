@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class ScaleTranzition extends PageTranzition {
+@optionalTypeArgs
+class ScaleTranzition<T> extends PageTranzition<T> {
   ScaleTranzition({
     required super.child,
     this.alignment = Alignment.center,

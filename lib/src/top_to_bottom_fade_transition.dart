@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class TopToBottomFadeTranzition extends PageTranzition {
+@optionalTypeArgs
+class TopToBottomFadeTranzition<T> extends PageTranzition<T> {
   TopToBottomFadeTranzition({
     required super.child,
   });

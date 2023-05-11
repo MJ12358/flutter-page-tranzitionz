@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class LeftToRightJoinTranzition extends PageTranzition {
+@optionalTypeArgs
+class LeftToRightJoinTranzition<T> extends PageTranzition<T> {
   LeftToRightJoinTranzition({
     required super.child,
     required this.currentChild,

@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class FadeTranzition extends PageTranzition {
+@optionalTypeArgs
+class FadeTranzition<T> extends PageTranzition<T> {
   FadeTranzition({
     required super.child,
   });

@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class RotateTranzition extends PageTranzition {
+@optionalTypeArgs
+class RotateTranzition<T> extends PageTranzition<T> {
   RotateTranzition({
     required super.child,
     this.alignment = Alignment.center,

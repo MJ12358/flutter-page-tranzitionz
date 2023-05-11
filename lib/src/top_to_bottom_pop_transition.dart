@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class TopToBottomPopTranzition extends PageTranzition {
+@optionalTypeArgs
+class TopToBottomPopTranzition<T> extends PageTranzition<T> {
   TopToBottomPopTranzition({
     required super.child,
     required this.currentChild,

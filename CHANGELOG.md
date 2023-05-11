@@ -1,5 +1,10 @@
 # Flutter Page Tranzitionz
 
+## 2.2.0
+
+- Add optional type args.
+- Update dependency constraints.
+
 ## 2.0.2
 
 - Add example app.

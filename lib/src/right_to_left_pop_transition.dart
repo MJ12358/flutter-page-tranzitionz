@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class RightToLeftPopTranzition extends PageTranzition {
+@optionalTypeArgs
+class RightToLeftPopTranzition<T> extends PageTranzition<T> {
   RightToLeftPopTranzition({
     required super.child,
     required this.currentChild,

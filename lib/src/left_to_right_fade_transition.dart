@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class LeftToRightFadeTranzition extends PageTranzition {
+@optionalTypeArgs
+class LeftToRightFadeTranzition<T> extends PageTranzition<T> {
   LeftToRightFadeTranzition({
     required super.child,
   });

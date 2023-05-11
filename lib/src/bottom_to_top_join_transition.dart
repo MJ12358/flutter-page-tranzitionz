@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class BottomToTopJoinTranzition extends PageTranzition {
+@optionalTypeArgs
+class BottomToTopJoinTranzition<T> extends PageTranzition<T> {
   BottomToTopJoinTranzition({
     required super.child,
     required this.currentChild,

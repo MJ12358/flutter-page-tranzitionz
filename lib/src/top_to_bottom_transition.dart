@@ -1,6 +1,7 @@
 part of flutter_page_tranzitionz;
 
-class TopToBottomTranzition extends PageTranzition {
+@optionalTypeArgs
+class TopToBottomTranzition<T> extends PageTranzition<T> {
   TopToBottomTranzition({
     required super.child,
   });
