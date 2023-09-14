@@ -1,5 +1,12 @@
 # Flutter Page Tranzitionz
 
+## 2.1.1
+
+- Bump deps.
+- Update example.
+- Update pubspec.
+- Fix lints.
+
 ## 2.1.0
 
 - Add optional type args.
@@ -15,7 +22,8 @@
 
 ## 2.0.0
 
-- Ensure only the `flutter_page_tranzitionz.dart` file can be imported.
+- **BREAKING**:
+  - Ensure only the `flutter_page_tranzitionz.dart` file can be imported.
 
 ## 1.0.0
 

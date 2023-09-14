@@ -1,7 +1,13 @@
 name: flutter_page_tranzitionz
 description: A set of Page Route Transitions for simple and easy animations between different screens. Inspired by other packages on pub.dev.
-version: 2.1.0
-repository: https://github.com/mj12358/flutter-page-transitions
+version: 2.1.1
+repository: https://github.com/mj12358/flutter-page-tranzitionz
+funding:
+  - https://www.buymeacoffee.com/mj12358
+topics:
+  - flutter
+  - animation
+  - transition
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
@@ -12,6 +18,6 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  dart_lintz: ^1.1.0
+  dart_lintz: ^1.2.1
   flutter_test:
     sdk: flutter
