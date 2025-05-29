@@ -1,0 +1,10 @@
+.dart_tool/
+.idea/
+.vscode/
+android/
+build/
+coverage/
+ios/
+web/
+screenshots/
+test/files
