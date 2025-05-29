@@ -4,11 +4,7 @@ abstract class PageTranzition<T> extends PageRouteBuilder<T> {
   PageTranzition({
     required this.child,
   }) : super(
-          pageBuilder: (
-            BuildContext context,
-            Animation<double> animation,
-            Animation<double> secondaryAnimation,
-          ) {
+          pageBuilder: (_, __, ___) {
             return child;
           },
         );
