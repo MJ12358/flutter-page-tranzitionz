@@ -36,7 +36,8 @@ class Main extends StatelessWidget {
             itemCount: kTransitions.length,
             itemBuilder: (BuildContext context2, int index) {
               final Info info = kTransitions[index];
-              return ElevatedButton(
+              return MaterialButton(
+                color: Colors.primaries[index % Colors.primaries.length],
                 onPressed: () => Navigator.push(
                   context2,
                   info.route.call(context),
@@ -79,7 +80,6 @@ class Page2 extends StatelessWidget {
             return GridTile(
               child: Container(
                 color: color,
-                child: Text(color.toString()),
               ),
             );
           },

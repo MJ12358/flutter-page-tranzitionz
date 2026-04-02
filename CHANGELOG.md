@@ -1,5 +1,11 @@
 # Flutter Page Tranzitionz
 
+## [3.0.1]
+
+- Add thumbnail to pub.dev.
+- Update dependencies.
+- Update example.
+
 ## [3.0.0]
 
 - Update minimum dart version.
