@@ -1,5 +1,6 @@
 part of flutter_page_tranzitionz;
 
+/// A base class for page transitions.
 abstract class PageTranzition<T> extends PageRouteBuilder<T> {
   PageTranzition({
     required this.child,
@@ -9,5 +10,6 @@ abstract class PageTranzition<T> extends PageRouteBuilder<T> {
           },
         );
 
+  /// The new page.
   final Widget child;
 }

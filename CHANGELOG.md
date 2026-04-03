@@ -1,5 +1,13 @@
 # Flutter Page Tranzitionz
 
+## [4.0.0]
+
+- **BREAKING**:
+  - Refactor transitions for better useability, readability and maintainability.
+  - What used to be `BottomToTopFadeTranzition` becomes `FadeTranzition.bottomToTop` etc.
+- Add more comments.
+- Update example.
+
 ## [3.0.1]
 
 - Add thumbnail to pub.dev.
