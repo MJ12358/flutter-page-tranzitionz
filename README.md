@@ -9,5 +9,15 @@ A set of [Page Route Transitions](https://docs.flutter.dev/cookbook/animation/pa
 ```dart
 import 'package:flutter_page_tranzitionz/flutter_page_tranzitionz.dart';
 
-Navigator.of(context).push(BottomToTopFadeTranzition(child: MyNextPage()));
+Navigator.of(context).push(
+  FadeTranzition.bottomToTop(child: MyNextPage()),
+);
+
+Navigator.push(
+  context,
+  PopTranzition.rightToLeft(
+      child: MyNextPage(),
+      currentChild: context.widget,
+    ),
+);
 ```

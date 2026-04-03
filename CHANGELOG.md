@@ -1,5 +1,10 @@
 # Flutter Page Tranzitionz
 
+## [4.0.1]
+
+- Update readme.
+- Add more comments.
+
 ## [4.0.0]
 
 - **BREAKING**:
