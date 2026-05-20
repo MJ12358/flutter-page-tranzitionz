@@ -1,5 +1,9 @@
 # Flutter Page Tranzitionz
 
+## [4.0.2]
+
+- Fix static analysis warning: "part-of directive uses a library name"
+
 ## [4.0.1]
 
 - Update readme.

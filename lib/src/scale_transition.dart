@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.ScaleTranzition}
 /// A page transition that scales the new page in.

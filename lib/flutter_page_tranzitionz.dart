@@ -1,5 +1,3 @@
-library flutter_page_tranzitionz;
-
 import 'package:flutter/widgets.dart';
 
 part 'src/fade_transition.dart';

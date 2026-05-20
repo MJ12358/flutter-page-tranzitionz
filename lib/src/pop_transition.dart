@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.PopTranzition}
 /// A page transition that pops the current page out

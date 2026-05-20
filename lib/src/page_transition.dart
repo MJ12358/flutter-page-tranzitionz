@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.PageTranzition}
 /// A base class for page transitions.

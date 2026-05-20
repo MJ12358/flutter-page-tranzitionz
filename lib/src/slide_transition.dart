@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.SlideTranzition}
 /// A page transition that slides the new page in from a specified offset.

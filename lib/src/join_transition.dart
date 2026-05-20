@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.JoinTranzition}
 /// A page transition that joins the current page and the new page.

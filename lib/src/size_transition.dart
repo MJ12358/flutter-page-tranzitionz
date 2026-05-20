@@ -1,4 +1,4 @@
-part of flutter_page_tranzitionz;
+part of '../flutter_page_tranzitionz.dart';
 
 /// {@template flutter_page_tranzitionz.SizeTranzition}
 /// A page transition that sizes the new page in.
@@ -35,7 +35,7 @@ class SizeTranzition<T> extends PageTranzition<T> {
     required super.child,
     this.curve = _defaultCurve,
   }) : alignment = Alignment.topCenter;
-  
+
   @override
   Widget buildTransitions(
     BuildContext context,
