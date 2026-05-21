@@ -1,3 +1,7 @@
+/// A set of Page Route Transitions for simple
+/// and easy animations between different screens.
+library;
+
 import 'package:flutter/widgets.dart';
 
 part 'src/fade_transition.dart';
