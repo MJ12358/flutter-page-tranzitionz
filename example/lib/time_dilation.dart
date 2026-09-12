@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
+import 'package:material_ui/material_ui.dart';
 
 class TimeDilationButton extends StatelessWidget {
   const TimeDilationButton({super.key});

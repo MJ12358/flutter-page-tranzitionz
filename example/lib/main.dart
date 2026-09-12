@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_page_tranzitionz_example/time_dilation.dart';
 import 'package:flutter_page_tranzitionz_example/transitions.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// To run the example app, clone/fork the repo!
 
