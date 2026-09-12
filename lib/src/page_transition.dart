@@ -8,10 +8,10 @@ abstract class PageTranzition<T> extends PageRouteBuilder<T> {
   PageTranzition({
     required this.child,
   }) : super(
-          pageBuilder: (_, __, ___) {
-            return child;
-          },
-        );
+         pageBuilder: (_, _, _) {
+           return child;
+         },
+       );
 
   /// The new page.
   final Widget child;
