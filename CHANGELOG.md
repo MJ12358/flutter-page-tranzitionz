@@ -1,5 +1,9 @@
 # Flutter Page Tranzitionz
 
+## [5.0.1]
+
+- Update dependencies.
+
 ## [5.0.0]
 
 - Migrate to material_ui.

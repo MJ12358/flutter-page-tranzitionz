@@ -15,7 +15,6 @@ dependencies:
     # When depending on this package from a real application you should use:
     #   flutter_page_tranzitionz: ^x.y.z
     path: ../.
-    version: 5.0.0
   material_ui: ^1.2.0
 
 dev_dependencies:
